@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html class="light">
+  <head>
+    <meta charset="UTF-8">
+    <title>Cards</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Rock+Salt&display=swap" rel="stylesheet">
+     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Trade+Winds&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/cards.css">
+
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+
+    <script type="text/javascript" src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script type="text/javascript" src="node_modules/jquery-csv/src/jquery.csv.min.js"></script>
+    <script type="text/javascript" src="scripts/cards.js"></script>
+
+    <script>if (window.module) module = window.module;</script>
+  </head>
+  <body>
+    <div id="preparation">
+      <button id="mode">single</button>
+      <button id="load"><i class="fa fa-folder-open-o"></i></button>
+      <button id="save"><i class="fa fa-save"></i></button>
+      <button id="corner"><i class="fa fa-square-o"></i></button>
+      <button id="previous"><i class="fa fa-angle-left"></i></button>
+      <button id="next"><i class="fa fa-angle-right"></i></button>
+      <div id="custom-icons" style="display: none">
+        <img id="active" src="data/symbols/ability_active.svg">
+        <img id="reactive" src="data/symbols/ability_reactive.svg">
+        <img id="passive" src="data/symbols/ability_passive.svg">
+        <img id="none" src="data/symbols/die_none.svg">
+        <img id="required" src="data/symbols/die_required.svg">
+        <img id="optional" src="data/symbols/die_optional.svg">
+        <img id="hint-a" src="data/design/default/hints/hint_attack.svg">
+        <img id="hint-b" src="data/design/default/hints/hint_block.svg">
+        <img id="hint-h" src="data/design/default/hints/hint_heal.svg">
+        <img id="hint-s" src="data/design/default/hints/hint_special.svg">
+      </div>
+    </div>
+    <div id="view">
+      <div class="card-board texture">
+
+        <div class="card" id="card-template">
+          <div class="background" style="background-image: url('data/backgrounds/_used.png')"></div>
+          <div class="artwork" style="background-image: url('data/images/_example.png')"></div>
+          <div class="design" style="background-image: url('data/design/default/design.png')"></div>
+          <div class="title">Resc, the Opportune</div>
+          <div class="life">4</div>
+          <div class="ability-hint" style="background-image: url('data/design/default/hints/hint_3_h.png')"><img class="hint-symbol-3" src="data/design/default/hints/hint_heal.svg"></div>
+          <div class="ability-hint" style="background-image: url('data/design/default/hints/hint_2_b.png')"><img class="hint-symbol-2" src="data/design/default/hints/hint_block.svg"></div>
+          <div class="ability-hint" style="background-image: url('data/design/default/hints/hint_1_a.png')"><img class="hint-symbol-1" src="data/design/default/hints/hint_attack.svg"></div>
+          <table class="abilities">
+            <tr>
+              <td class="ability" rowspan="1"><img id="passive" src="data/symbols/ability_passive.svg"><img id="none" src="data/symbols/die_none.svg"></td>
+              <td class="outcomes">
+                <div class="condition">when this character acts:</div>
+                <div class="effect">reduce this characters health by 1</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="ability" rowspan="2"><img id="active" src="data/symbols/ability_active.svg"><img id="required" src="data/symbols/die_required.svg"></td>
+              <td class="outcomes">
+                <div class="condition">when die roll equals 3 or less:</div>
+                <div class="effect">attack other character with half of this characters health</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="outcomes">
+                <div class="condition">when die roll equals 4 or more:</div>
+                <div class="effect">attack other character with health of this character</div>
+              </td>
+            </tr>
+            <tr>
+              <td class="ability" rowspan="1"><img id="reactive" src="data/symbols/ability_reactive.svg"><img id="optional" src="data/symbols/die_optional.svg"></div>
+              <td class="outcomes">
+                <div class="condition">on any die roll:</div>
+                <div class="effect">reduce other characters attack by half of die roll</div>
+              </td>
+            </tr>
+          </table>
+          <div class="description">
+            <img src="data/design/default/flourish-l.png" style="margin-right:5px"><!--
+         --><span>I save those in dire straits.</span><!--
+         --><img src="data/design/default/flourish-r.png" style="margin-left:10px">
+          </div>
+          <div class="identifier">036</div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,48 @@
+{
+  "name": "card-generator",
+  "version": "0.1.1",
+  "description": "Generate cards from csv table",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder",
+    "postinstall": "electron-builder install-app-deps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rzllmr/bout-cardgame.git"
+  },
+  "author": "rzllmr <30299783+rzllmr@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^8.0.1",
+    "electron-builder": "^22.3.3",
+    "eslint": "^6.8.0",
+    "eslint-config-google": "^0.14.0"
+  },
+  "dependencies": {
+    "electron-localshortcut": "^3.2.1",
+    "jquery": "^3.4.1",
+    "jquery-csv": "^1.0.8",
+    "npm": "^6.13.7",
+    "sharp": "^0.25.2"
+  },
+  "build": {
+    "asar": false,
+    "directories": {
+      "output": "bin"
+    },
+    "win": {
+      "target": "portable",
+      "icon": "build/icon.ico"
+    },
+    "extraResources": [
+      {
+        "from": "build",
+        "to": "app",
+        "filter": "env.js"
+      }
+    ]
+  }
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="40"
+   height="40"
+   viewBox="0 0 10.583333 10.583333"
+   version="1.1"
+   id="svg8"
+   sodipodi:docname="die_none.svg"
+   inkscape:version="0.92.1 r15371">
+  <defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="7.9195959"
+     inkscape:cx="26.956066"
+     inkscape:cy="10.720951"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1858"
+     inkscape:window-height="1057"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     units="px"
+     inkscape:snap-grids="true"
+     inkscape:snap-to-guides="true"
+     inkscape:snap-global="true"
+     inkscape:snap-center="true">
+    <inkscape:grid
+       type="xygrid"
+       id="grid4487"
+       originx="-33.072915"
+       originy="-260.61458" />
+    <sodipodi:guide
+       position="3.5917446e-007,10.583334"
+       orientation="1,0"
+       id="guide4491"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="10.583334,-6.0834453e-006"
+       orientation="1,0"
+       id="guide4493"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="-6.408255e-007,3.9165544e-006"
+       orientation="0,1"
+       id="guide4495"
+       inkscape:locked="false" />
+    <sodipodi:guide
+       position="10.583333,10.583334"
+       orientation="0,1"
+       id="guide4497"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-33.072916,-25.802082)">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Pacifico;-inkscape-font-specification:'Pacifico, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#131311;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="35.070385"
+       y="34.619457"
+       id="text4509"><tspan
+         sodipodi:role="line"
+         id="tspan4507"
+         x="35.070385"
+         y="34.619457"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87777805px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';fill:#131311;fill-opacity:1;stroke-width:0.26458332">X</tspan></text>
+    <path
+       style="opacity:1;fill:#131311;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.77952766;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
+       d="M 5 0 C 2.2299991 0 0 2.2299991 0 5 L 0 35 C 0 37.770001 2.2299991 40 5 40 L 35 40 C 37.770001 40 40 37.770001 40 35 L 40 5 C 40 2.2299991 37.770001 0 35 0 L 5 0 z M 6 3 L 34 3 C 35.661999 3 37 4.3380008 37 6 L 37 34 C 37 35.661999 35.661999 37 34 37 L 6 37 C 4.3380008 37 3 35.661999 3 34 L 3 6 C 3 4.3380008 4.3380008 3 6 3 z "
+       transform="matrix(0.26458333,0,0,0.26458333,33.072916,25.802082)"
+       id="rect4502" />
+  </g>
+</svg>

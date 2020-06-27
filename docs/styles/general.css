@@ -4,6 +4,7 @@
   --color-text-faded: #262522;
   --color-scroll: #f2f05c;
   --color-panel: #ffffff99;
+  --color-highlight: Indigo;
   --font: 'Ubuntu', sans-serif;
   --font-special: 'Shojumaru', cursive;
   --font-special: 'Luckiest Guy', cursive;
@@ -36,6 +37,18 @@ h2 {
   margin-top: 40px;
 }
 
+h3 {
+  font-family: var(--font-special);
+  font-size: 24px;
+  text-align: center;
+  margin-top: 40px;
+}
+
+mark {
+  background: none;
+  color: var(--color-highlight);
+}
+
 button {
   padding: 10px;
   border-radius: 5px;
@@ -43,7 +56,7 @@ button {
   border: none;
   box-shadow: 0 0 16px 0px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  color: Indigo;
+  color: var(--color-highlight);
 }
 button:active {
   box-shadow: none;
@@ -62,8 +75,7 @@ div#outer {
 }
 
 div#inner {
-  max-width: 800px;
-  min-width: 600px;
+  width: 700px;
   margin: auto;
   background: var(--color-scroll);
   padding: 50px;
@@ -91,6 +103,12 @@ div.frame > * {
   height: 100%;
   float: left;
 }
+div.frame:nth-of-type(odd) > * {
+  float: left;
+}
+div.frame:nth-of-type(even) > * {
+  float: right;
+}
 
 div.aligner {
   width: calc(100% - 160px);
@@ -110,11 +128,12 @@ div.text {
   width: calc(100% - 60px);
   /* background: white; */
 }
-div.frame.left div.text {
+div.frame:nth-of-type(odd) div.text {
   margin-left: 30px;
 }
-div.frame.right div.text {
+div.frame:nth-of-type(even) div.text {
   margin-left: 90px;
+  margin-left: 30px;
 }
 
 div.sketch {
@@ -122,19 +141,19 @@ div.sketch {
   position: relative;
   z-index: 1;
 }
-div.frame.left div.sketch {
+div.frame:nth-of-type(odd) div.sketch {
   transform: rotateZ(3deg);
 }
-div.frame.right div.sketch {
+div.frame:nth-of-type(even) div.sketch {
   transform: rotateZ(-3deg);
+  margin-right: 60px;
 }
 
 div.sketch img {
   height: 240px;
   margin-top: -20px;
 }
-
-div.frame.right div.sketch img {
+div.frame:nth-of-type(even) div.sketch img {
   margin-top: -15px;
   margin-left: -10px;
 }

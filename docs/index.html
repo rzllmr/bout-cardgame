@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Bout Card Game</title>
 
-    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Shojumaru&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans&family=Luckiest+Guy&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <link rel="stylesheet" href="styles/general.css">
@@ -13,20 +13,37 @@
   </head>
   <body>
     <div id="outer">
+      <div id="left-bar" class="bar"></div>
       <div id="inner">
-        <h1 id="title">Bout</h1>
-        <span id="subtitle">a card battling game</span>
+        <div id="title">
+          <img src="data/bout.png">
+          <span>a card battling game</span>
+        </div>
         <div class="frame">
           <div class="aligner"><div class="text">
             BOUT is a game to bring all the fun of your regular Collectible Card Game to the casual player's table. There is no long preparation of unbeatable decks, no single rounds consuming an entire evening and not even any collecting involved.<br>
             <br>
-            Just put it on the table and start a bout with anyone!<br>
+            Just put it to the table and start a bout with anyone!<br>
             <i class="fa fa-user"></i> 2 players <i class="fa fa-clock-o"></i> 30-90 minutes
           </div></div>
           <div class="sketch">
-            <img src="data/card.png">
+            <img src="data/white.png">
           </div>
         </div>
+        <span id="cards">
+          <svg style="position: absolute;z-index: 1;" width="700" height="400">
+            <polygon points="330,255 500,124 518,342" fill="rgba(0,0,0,0.5)" stroke="black" stroke-width="3"></polygon>
+          </svg>
+          <span id="stack">
+            <img src="data/card.png">
+            <img src="data/card.png">
+            <img src="data/card.png">
+            <img src="data/card.png">
+          </span>
+          <span id="zoom">
+            <img src="data/card.png">
+          </span>
+        </span>
         <h2>Where to get</h2>
         <div class="frame">
           <div class="aligner"><div class="text">
@@ -35,40 +52,43 @@
             <a href='data/cards.zip' dowload><button><i class="fa fa-download"></i> Download Card Sheets</button></a>
           </div></div>
           <div class="sketch">
-            <img src="data/card.png">
+            <img src="data/white.png">
           </div>
         </div>
+        <span id="fighter">
+          <img src="data/martial_artist.png">
+        </span>
         <h2>How to play</h2>
         <div class="frame">
           <div class="aligner"><div class="text">
-            You start a round by shuffling all 54 cards and handing each player 9 of them face down. Both of you then start selecting one card to keep for your own <mark>deck</mark> and hand the rest to the other player. Repeat this until there is only one left. That one is out of the round and can be put back to the others.<br>
+            You start a <mark>round</mark> by shuffling all 54 cards and handing each player 9 of them face down. Both of you then start selecting one card to keep for your own <mark>deck</mark> and hand the rest to the other player. Repeat this until there is only one left. That one is out of the <mark>round</mark> and can be put back to the others.<br>
             <br>
             * For the first try you can skip this part and give each player the same 8 cards marked with a <i class="fa fa-mortar-board"></i>.
           </div></div>
           <div class="sketch">
-            <img src="data/card.png">
+            <img src="data/white.png">
           </div>
         </div>
         <div class="frame" style="margin-top: 50px">
           <div class="aligner"><div class="text">
-            You and your opponent should now have a deck of your first <b>8 fighters</b> ready for the bout. For the one you had to put out of the game before each of you gain <b>1 die</b>.<br>
+            You and your opponent should now have a <mark>deck</mark> of your first <b>8 fighters</b> ready for the bout. For the one you had to put out of the game before each of you gain <b>1 die</b>.<br>
             <br>
-            Now you're ready to start the first turn. Let the other player begin, so you can keep reading the rules to them as they do it.
+            Now you're ready to start the first <mark>turn</mark>. Let the other player begin, so you can keep reading the rules to them as they do it.
           </div></div>
           <div class="sketch">
-            <img src="data/card.png">
+            <img src="data/white.png">
           </div>
         </div>
         <h3>Step I: Draw cards</h3>
         <div class="frame">
           <div class="aligner"><div class="text">
-            You start your turn by drawing <b>3 cards</b> from your <mark>deck</mark> (or less if you're running out of cards). Of those you have to select one to either play or discard.<br>
+            You start your <mark>turn</mark> by drawing <b>3 cards</b> from your <mark>deck</mark> (or less if you're running out of cards). Of those you have to select one to either <mark>play</mark> or <mark>discard</mark>.<br>
             <br>
-            Playing means adding the card to your side of the table face up, making it ready to fight. And by discarding you put it out of the game on your own discard pile but gain another <b>1 die</b>.<br>
+            <mark>Playing</mark> means adding the card to your side of the table face up, making it ready to fight. And by <mark>discarding</mark> you put it out of the game on your own <mark>discard pile</mark> but gain another <b>1 die</b>.<br>
             Choose wisely...
           </div></div>
           <div class="sketch">
-            <img src="data/card.png">
+            <img src="data/white.png">
           </div>
         </div>
         <div class="frame" style="margin-top: 50px">
@@ -78,75 +98,76 @@
             <b>Discard pile:</b> A seperate pile of cards besides your <mark>playing field</mark> and <mark>deck</mark>. All cards residing here are out of the game. Their numbers in the top left corner are added up to determine the end of the game and the winner.<br>
           </div></div>
           <div class="sketch">
-            <img src="data/card.png">
+            <img src="data/white.png">
           </div>
         </div>
         <h3>Step 2: Assign dice</h3>
         <div class="frame">
           <div class="aligner"><div class="text">
-            Once you're done playing or discarding a card you have to choose what to do with those on the <mark>playing field</mark>. Each card has up to 3 different abilities that are either active, reactive or passive. By assigning 1 or 2 dice to an active or reactive ability you choose to use that right away.<br>
+            Once you're done <mark>playing</mark> or <mark>discarding</mark> a card you have to choose what to do with those on the <mark>playing field</mark>. Each card has up to 3 different  <mark>abilities</mark> that are either <mark>active</mark>, <mark>reactive</mark> or <mark>passive</mark>. By assigning 1 or 2 dice to an <mark>active</mark> or <mark>reactive</mark> <mark>ability</mark> you choose to use that right away.<br>
             <br>
-            You can assign dice to a card only once per turn and only to one of its abilities. The dice you will regain when it's your turn again.
+            You can assign dice to a card only once per <mark>turn</mark> and only to one of its <mark>abilities</mark>. The dice you will regain when it's your turn again.
           </div></div>
           <div class="sketch">
-            <img src="data/card.png">
+            <img src="data/white.png">
           </div>
         </div>
         <div class="frame" style="margin-top: 50px">
           <div class="aligner"><div class="text">
-            <b>Active ability:</b> This ability you can use only in your turn.<br>
+            <b>Active ability:</b> This <mark>ability</mark> you can use only in your turn.<br>
             <br>
-            <b>Reactive ability:</b> This ability you can use at any time. Mostly to counter abilities of your opponent or alter the outcome.<br>
+            <b>Reactive ability:</b> This <mark>ability</mark> you can use at any time. Mostly to counter <mark>abilities</mark> of your opponent or alter the outcome.<br>
             <br>
-            <b>Passive ability:</b> This ability you <ins>cannot</ins> use directly. It has to be executed on the condition stated on the card.
+            <b>Passive ability:</b> This <mark>ability</mark> you <ins>cannot</ins> use directly. It has to be executed on the condition stated on the card.
           </div></div>
           <div class="sketch">
-            <img src="data/card.png">
+            <img src="data/white.png">
           </div>
         </div>
         <h3>Step 3: Take action</h3>
         <div class="frame">
           <div class="aligner"><div class="text">
-            After you chose what ability to use, you announce its target and roll the dice required for it. For abilities that have multiple targets you must announce these in order. Only when the number is dependent on the die roll itself you can state them afterwards.<br>
+            After you chose what <mark>ability</mark> to use, you announce its target and roll the dice required for it. For <mark>abilities</mark> that have multiple targets you must announce these in order. Only when the number is dependent on the die roll itself you can state them afterwards.<br>
             <br>
-            What to make of the die result is described for each ability on the card itself. Just make sure to place the dice upon the card to signify that both, card and dice, are blocked for the rest of this turn.
+            What to make of the die result is described for each <mark>ability</mark> on the card itself. Just make sure to place the dice upon the card to signify that both, card and dice, are blocked for the rest of this <mark>turn</mark>.
           </div></div>
           <div class="sketch">
-            <img src="data/card.png">
+            <img src="data/white.png">
           </div>
         </div>
         <div class="frame" style="margin-top: 50px">
           <div class="aligner"><div class="text">
-            But your opponent doesn't have to abide your action without any response. They can just assign any of their free dice to <mark>reactive</mark> abilities and execute them as well. And then you can react to that again. Back and forth until both of you are done or out of dice.<br>
+            But your opponent doesn't have to abide your action without any response. They can just assign any of their free dice to <mark>reactive</mark> <mark>abilities</mark> and execute them as well. And then you can react to that again. Back and forth until both of you are done or out of dice.<br>
             <br>
-            While you are encouraged use the matches to account for all the changes, it is only the state at the end of the exchange that goes into effect. Every character without any matches left then is <mark>eliminated</mark> and added to the discard pile.
+            While you are encouraged use the matches to account for all the changes, it is only the state at the end of the exchange that goes into effect. Every character without any matches left then is <mark>eliminated</mark> and added to the <mark>discard pile</mark>.
           </div></div>
           <div class="sketch">
-            <img src="data/card.png">
+            <img src="data/white.png">
           </div>
         </div>
         <h3>End of the round</h3>
         <div class="frame">
           <div class="aligner"><div class="text">
-            The sum of the numbers in the upper left corner of the cards on the <mark>discard pile</mark> makes the overall score. When this reaches 12 or more the round is over and the player with the lower score wins.<br>
+            The sum of the numbers in the upper left corner of the cards on the <mark>discard pile</mark> makes the overall score. When this reaches 12 or more the <mark>round</mark> is over and the player with the lower score wins.<br>
             <br>
             Congratulations to the winner!<br>If you were in for a short bout you can leave it at that and look forward to the next chance to play. But for those of you who want to settle this here and now: Please, read ahead...
           </div></div>
           <div class="sketch">
-            <img src="data/card.png">
+            <img src="data/white.png">
           </div>
         </div>
         <div class="frame" style="margin-top: 50px">
           <div class="aligner"><div class="text">
-            To complete a tournament you will have to play another 2 rounds. Those you start with a new discard pile and your dice count set back to 1. But all cards left on the <mark>playing field</mark> and in your <mark>deck</mark> in one round will form the starting <mark>deck</mark> of the next. And you draft additional 7 in the second and 5 in the third round.<br>
+            To complete a tournament you will have to play another 2 <mark>rounds</mark>. Those you start with a new <mark>discard pile</mark> and your dice count set back to 1. But all cards left on the <mark>playing field</mark> and in your <mark>deck</mark> in one <mark>round</mark> will form the starting <mark>deck</mark> of the next. Expanded by additional 9 cards you draft in the second and third <mark>round</mark>.<br>
             <br>
-            After all 3 rounds at last you sum up all 3 discard piles. The player with the lower score then is the "Champion of the Tournament".
+            After all 3 <mark>rounds</mark> at last you sum up all 3 <mark>discard piles</mark>. The player with the lower score then is the "Champion of the Tournament".
           </div></div>
           <div class="sketch">
-            <img src="data/card.png">
+            <img src="data/white.png">
           </div>
         </div>
       </div>
+      <div id="right-bar" class="bar"></div>
     </div>
   </body>
 </html>

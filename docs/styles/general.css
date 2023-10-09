@@ -32,18 +32,19 @@ div#title span {
   transform: translate(-20px, -15px);
 }
 
-h2 {
+h2, h3 {
   font-family: var(--font-special);
-  font-size: 32px;
   text-align: center;
   margin-top: 40px;
+  letter-spacing: 0.03em;
+}
+
+h2 {
+  font-size: 32px;
 }
 
 h3 {
-  font-family: var(--font-special);
   font-size: 24px;
-  text-align: center;
-  margin-top: 40px;
 }
 
 mark {
@@ -138,7 +139,7 @@ span#cards span#zoom {
   z-index: 1;
 }
 span#cards span#zoom img {
-  transform: scale(50%) translate(-450px, -1111px);
+  transform: scale(55%) translate(-320px, -960px);
 }
 
 span#fighter {
@@ -149,6 +150,23 @@ span#fighter {
 }
 span#fighter img {
   height: 350px;
+}
+
+span#info {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-top: 80px;
+}
+
+span#info p {
+  margin: 30px;
+  line-height: 1.5em;
+  letter-spacing: 0.03em;
+}
+
+span#info p a {
+  color: var(--color-highlight);
 }
 
 div.frame {
@@ -180,7 +198,7 @@ div.frame:nth-of-type(odd) > * {
 }
 
 div.aligner {
-  width: calc(100% - 160px);
+  width: calc(100% - 161px);
   line-height: 180px;
   padding: 10px;
   box-sizing: border-box;
@@ -209,7 +227,6 @@ div.sketch {
   width: 160px;
   position: relative;
   z-index: 1;
-  box-sizing: border-box;
   border: 3px solid black;
   overflow: hidden;
   background: white;
@@ -222,13 +239,4 @@ div.frame:nth-of-type(even) div.sketch {
 div.frame:nth-of-type(odd) div.sketch {
   transform: rotateZ(-3deg);
   margin-right: -5px;
-}
-
-div.sketch img {
-  height: 240px;
-  margin-top: -20px;
-}
-div.frame:nth-of-type(odd) div.sketch img {
-  margin-top: -15px;
-  margin-left: -10px;
 }

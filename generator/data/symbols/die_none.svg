@@ -26,12 +26,12 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="7.9195959"
-     inkscape:cx="26.956066"
+     inkscape:cx="4.858979"
      inkscape:cy="10.720951"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="true"
-     inkscape:window-width="1858"
+     inkscape:window-width="1857"
      inkscape:window-height="1057"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
@@ -81,7 +81,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -90,17 +90,15 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(-33.072916,-25.802082)">
-    <text
-       xml:space="preserve"
+    <g
+       aria-label="X"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Pacifico;-inkscape-font-specification:'Pacifico, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#131311;fill-opacity:1;stroke:none;stroke-width:0.26458332"
-       x="35.070385"
-       y="34.619457"
-       id="text4509"><tspan
-         sodipodi:role="line"
-         id="tspan4507"
-         x="35.070385"
-         y="34.619457"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87777805px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';fill:#131311;fill-opacity:1;stroke-width:0.26458332">X</tspan></text>
+       id="text4509">
+      <path
+         d="m 42.184507,34.619457 h -2.204172 l -1.374593,-2.204172 -1.360124,2.204172 h -2.15594 l 2.339219,-3.607704 -2.199349,-3.443717 h 2.112533 l 1.273307,2.180056 1.225076,-2.180056 h 2.175234 l -2.233111,3.593234 z"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:9.87777805px;font-family:'Open Sans';-inkscape-font-specification:'Open Sans Bold';fill:#131311;fill-opacity:1;stroke-width:0.26458332"
+         id="path4490" />
+    </g>
     <path
        style="opacity:1;fill:#131311;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3.77952766;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;paint-order:markers fill stroke"
        d="M 5 0 C 2.2299991 0 0 2.2299991 0 5 L 0 35 C 0 37.770001 2.2299991 40 5 40 L 35 40 C 37.770001 40 40 37.770001 40 35 L 40 5 C 40 2.2299991 37.770001 0 35 0 L 5 0 z M 6 3 L 34 3 C 35.661999 3 37 4.3380008 37 6 L 37 34 C 37 35.661999 35.661999 37 34 37 L 6 37 C 4.3380008 37 3 35.661999 3 34 L 3 6 C 3 4.3380008 4.3380008 3 6 3 z "

@@ -6,13 +6,15 @@
   --color-title: #f8f8f8;
   --color-border: #d9d8d4;
   --color-highlight: #435667;
-  --special-font: 'Rock Salt', cursive;
-  --special-font: 'Caveat', cursive;
+  --text-font: 'Montserrat', sans-serif;
+  --text-font: 'Open Sans', sans-serif;
+  --title-font: 'Luckiest Guy', cursive;
+  --quote-font: 'Caveat', cursive;
 }
 
 body {
   margin: 0;
-  font-family: "Open Sans", sans-serif;
+  font-family: var(--text-font);
   font-size: 14px;
   overflow: hidden;
   color: var(--color-text);
@@ -94,8 +96,7 @@ body {
   position: absolute;
   height: var(--cardHeight);
   width: var(--cardWidth);
-  background-position: center top;
-  background-size: cover;
+  background-position: -36px -37px;
   border-radius: inherit;
   z-index: -3;
 }
@@ -108,25 +109,26 @@ body {
 }
 
 .hint-symbol-1 {
-  width: 34px;
-  transform: translate(51px, 135px);
+  width: 45px;
+  transform: translate(34px, 151px);
 }
 .hint-symbol-2 {
-  width: 34px;
-  transform: translate(51px, 185px);
+  width: 45px;
+  transform: translate(34px, 247px);
 }
 .hint-symbol-3 {
-  width: 34px;
-  transform: translate(51px, 235px);
+  width: 45px;
+  transform: translate(34px, 340px);
 }
 
 .life {
   position: absolute;
   text-align: center;
-  transform: translate(30px, 30px);
-  font-size: 64px;
+  transform: translate(30px, 24px);
+  font-family: var(--title-font);
+  font-size: 68px;
   width: 76px;
-  color: white;
+  color: var(--color-text);
 }
 
 .title {
@@ -138,9 +140,10 @@ body {
   font-size: 38px;
   transform: translate(130px, 51px);
   text-transform: uppercase;
-  font-family: var(--special-font);
-  font-size: 44px;
-  transform: translate(124px, 49px);
+  font-family: var(--title-font);
+  font-size: 43px;
+  color: var(--color-title);
+  transform: translate(134px, 36px);
 }
 
 .description {
@@ -148,12 +151,11 @@ body {
   width: var(--cardWidth);
   padding: 28px 0;
   text-align: center;
-  transform: translateY(563px);
-  font-size: 23px;
-  font-style: italic;
+  transform: translateY(560px);
+  font-family: var(--quote-font);
+  font-size: 36px;
+  font-weight: bold;
   color: var(--color-text);
-  font-family: var(--special-font);
-  font-size: 30px;
 }
 .description img {
   width: 66px;
@@ -173,8 +175,8 @@ table.abilities {
   border-spacing: 0 20px;
   width: var(--cardWidth);
   position: absolute;
-  transform: translateY(644px);
-  font-size: 23px;
+  transform: translateY(650px);
+  font-size: 24px;
   padding: 0 28px;
 }
 table.abilities th {

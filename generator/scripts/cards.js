@@ -148,6 +148,7 @@ class Generator {
     } else {
       imageIdx = this.images.findIndex((item) => item.slice(0, -4) == fileName);
       if (imageIdx > -1) fileName = this.images[imageIdx];
+      else fileName = this.images[0];
     }
     if (fileName != '') {
       imageIdx = this.imagePool.indexOf(fileName);

@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "start",
+			"path": "generator/",
+			"problemMatcher": [],
+			"label": "npm: start - generator",
+			"detail": "electron .",
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}

@@ -29,9 +29,9 @@ You start your _turn_ by drawing __3 cards__ from your _deck_ (or less if you're
 
 _Playing_ means adding the card to your side of the table face up, making it ready to fight. And by _discarding_ you put it out of the game on your own _discard pile_ but gain another __1 die__. Choose wisely...
 
-__Playing field:__ The area on your side of the table where you have all active cards. Those newly added get a couple of matches according to the number in the top left corner of the card.
-
-__Discard pile:__ A seperate pile of cards besides your _playing field_ and _deck_. All cards residing here are out of the game. Their numbers in the top left corner are added up to determine the end of the game and the winner.
+> __Playing field:__ The area on your side of the table where you have all active cards. Those newly added get a couple of matches according to the number in the top left corner of the card.
+> 
+> __Discard pile:__ A seperate pile of cards besides your _playing field_ and _deck_. All cards residing here are out of the game. Their numbers in the top left corner are added up to determine the end of the game and the winner.
 
 ### Step 2: Assign dice
 
@@ -39,11 +39,11 @@ Once you're done _playing_ or _discarding_ a card you have to choose what to do 
 
 You can assign dice to a card only once per _turn_ and only to one of its _abilities_. The dice you will regain when it's your turn again.
 
-__Active ability:__ This _ability_ you can use only in your _turn_.
-
-__Reactive ability:__ This _ability_ you can use at any time. Mostly to counter _abilities_ of your opponent or alter the outcome.
-
-__Passive ability:__ This _ability_ you cannot (!) use directly. It has to be executed on the condition stated on the card.
+> __Active ability:__ This _ability_ you can use only in your _turn_.
+> 
+> __Reactive ability:__ This _ability_ you can use at any time. Mostly to counter _abilities_ of your opponent or alter the outcome.
+> 
+> __Passive ability:__ This _ability_ you cannot use directly. It has to be executed on the condition stated on the card.
 
 ### Step 3: Take action
 

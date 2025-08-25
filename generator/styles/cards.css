@@ -171,6 +171,16 @@ body {
   font-size: 18px;
 }
 
+.watermark {
+    position: absolute;
+    width: var(--cardWidth);
+    text-align: right;
+    color: #581f69;
+    transform: translateY(1011px);
+    font-size: 18px;
+    margin-left: -10px;
+}
+
 table.abilities {
   border-spacing: 0 20px;
   width: var(--cardWidth);

@@ -76,6 +76,7 @@ function capture(path, width, height, split) {
         for(let c = 0; c < 3; c++) {
           const outputImage = originalImage.replace(ext, `-${r * 3 + c + 1}${ext}`);
           sharp(originalImage)
+            .resize(parseInt(width), parseInt(height))
             .extract({ width: 744 * 3, height: 1038 * 3, left: 744 * 3 * c, top: 1038 * 3 * r })
             .extend({ top: 197, bottom: 197, left: 124, right: 124, background: { r: 255, g: 255, b: 255, alpha: 1 } })
             .toFile(outputImage)

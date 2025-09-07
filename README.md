@@ -23,7 +23,7 @@ You and your opponent should now have a _deck_ of your first __8 fighters__ read
 
 Now you're ready to start the first _turn_. Let the other player begin, so you can keep reading the rules to them as they do it.
 
-### Step I: Draw cards
+### Step 1: Draw cards
 
 You start your _turn_ by drawing __3 cards__ from your _deck_ (or less if you're running out of cards). Of those you have to select one to either _play_ or _discard_.
 
@@ -39,11 +39,11 @@ Once you're done _playing_ or _discarding_ a card you have to choose what to do 
 
 You can assign dice to a card only once per _turn_ and only to one of its _abilities_. The dice you will regain when it's your turn again.
 
-> __Active ability:__ This _ability_ you can use only in your _turn_.
+> :hourglass_flowing_sand: __Active ability:__ This _ability_ you can use only in your _turn_.
 
-> __Reactive ability:__ This _ability_ you can use at any time. Mostly to counter _abilities_ of your opponent or alter the outcome.
+> :zap: __Reactive ability:__ This _ability_ you can use at any time. Mostly to counter _abilities_ of your opponent or alter the outcome.
 
-> __Passive ability:__ This _ability_ you cannot use directly. It has to be executed on the condition stated on the card.
+> :bell: __Passive ability:__ This _ability_ you cannot use directly. It has to be executed on the condition stated on the card.
 
 ### Step 3: Take action
 
